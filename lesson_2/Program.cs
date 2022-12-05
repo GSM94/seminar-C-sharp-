@@ -57,11 +57,6 @@
 // Rand(num,a,b);
 // Задача 4 Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
 
-Console.WriteLine("Input number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input 1 number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
-
 bool cvadro(int num1, int num2)
 {
     if(num1 == num2 * num2 || num2 == num1 * num1)
@@ -69,6 +64,13 @@ bool cvadro(int num1, int num2)
     else
         return false;
 }
+
+Console.WriteLine("Input number: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input 1 number: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+
 bool result = cvadro(num1, num2);
 
 Console.WriteLine($"Result: {result}");
