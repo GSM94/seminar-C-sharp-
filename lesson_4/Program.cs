@@ -42,7 +42,7 @@
 
 // int Facrorial(int num)
 // {
-//     int fact = 1;
+//     int prod = 1;
 //     // while(num > 0)
 //     // {
 //     //     fact *= num;
@@ -50,9 +50,9 @@
 //     // }
 //     for (int i =2; i <= num; i++)
 //     {
-//         fact *= i;
+//         prod *= i;
 //     }
-//     return fact;
+//     return prod;
 // }
 // Console.Write("Input an integer number N: ");
 // int number = Convert.ToInt32(Console.ReadLine());
@@ -74,7 +74,8 @@ int[] CreateRandomArray(int size, int minValue, int maxValue)
 void ShowArray(int[] array)
 {
     for(int i = 0; i < array.Length; i++)
-        Console.Write($"array[{i+1}] is {array[i]}");
+        // Console.WriteLine($"array[{i+1}] is {array[i]}");
+        Console.Write(array[i] + " ");
 }
 Console.Write("Iput a number of elements: ");
 int size = Convert.ToInt32(Console.ReadLine());
