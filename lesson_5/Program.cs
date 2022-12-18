@@ -78,6 +78,8 @@
 // int[] result = rivers(myArray);
 // ShowArray(result);
 
+
+                                            //Задача 3
 // Задайте одномерный массив из m случайных чисел. Найдите количество элементов массива, значения которых лежат в отрезке [a,b].
 
 // int[] CreateRandomArray(int size, int minValue, int maxValue)
@@ -125,6 +127,7 @@
 // int result = Abed(myArray,a,b);
 // Console.WriteLine(result);
 
+                                                     //Задача 4
 // Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д. Результат запишите в новом массиве.
 
  int[] CreateRandomArray(int size, int minValue, int maxValue)
@@ -161,11 +164,6 @@ Console.Write("Iput a min possible value: ");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Iput a max possible value: ");
 int max = Convert.ToInt32(Console.ReadLine());
-
-// Console.Write("Iput number A possible value: ");
-// int a = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Iput number B possible value: ");
-// int b = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateRandomArray(size, min, max);
 ShowArray(myArray);
